@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    font-family: 'B612', sans-serif;
+}
+
+/* CSS for About Me Page */
+
+#passport-photo {
+    float: left;
+    height: 254px;
+    width: 242px;
+    position: relative;
+    padding: 12px;
+    margin: 12px;
+}
+
+.about-me {
+    margin: 12px;
+    padding: 12px;
+    display: block;
+    background: white;
+    opacity: 0.6;
+    border-style: groove;
+    border-color: black;
+    font-size: 13.5px;
+    float: inherit;
+    margin-top: 130px;
+}
+
+body {
+    overflow-y: scroll;
+    box-sizing: border-box;
+    display: block;
+    justify-content: space-between;
+    padding: 12px;
+    background: rgb(194, 226, 225);
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("https://img.freepik.com/free-photo/grunge-background-wallpaper-texture-concrete-concept_53876-16290.jpg?size=626&ext=jpg");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.heading {
+    height: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    opacity: 0.6;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+    float: inherit;
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    border-style: groove;
+    border-color: black;
+}
+
+li {
+    display: inline;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: left;
+}
+
+.h-line {
+    width:100%; 
+    height:1px; 
+    background: black;
+}
+
+/* CSS for Contact Page */
+
+.contact {
+    margin: 12px;
+    padding: 12px;
+    display: block;
+    background: white;
+    opacity: 0.6;
+    border-style: groove;
+    border-color: black;
+    font-size: 13.5px;
+    float: inherit;
+    margin-top: 130px;
+}
+
+#name {
+    height: 25px;
+    width: 250px;
+}
+
+#email {
+    height: 25px;
+    width: 250px;
+}
+
+#message {
+    height: 150px;
+    width: 600px;
+}
+
+input.text {
+
+}
+
+/* CSS for Portfolio Page */
+
+.portfolio {
+    margin: 12px;
+    padding: 12px;
+    display: block;
+    background: white;
+    opacity: 0.6;
+    border-style: groove;
+    border-color: black;
+    font-size: 13.5px;
+    float: inherit;
+    margin-top: 130px;
+}
+
+.card {
+    position: relative;
+}
+
+.cat {
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/f_auto,q_auto,w_1100/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg");
+    height: 200px;
+    width: 250px;
+  }
+
+.business {
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/14/10/28/business-3152586__340.jpg");
+    height: 200px;
+    width: 250px;
+  }
+
+.game {
+    background-image: url("https://www.pymnts.com/wp-content/uploads/2018/04/video-game-streaming-subscription.jpg");
+    height: 200px;
+    width: 250px;
+  }
+  
+.card-text {
+    background-color: gray;
+    color: black; 
+    display: inline-block;
+    padding: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 70%;
+}
