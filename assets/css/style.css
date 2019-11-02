@@ -165,3 +165,30 @@ input.text {
     left: 0;
     top: 70%;
 }
+
+@media screen (max-width:980px) {
+ .heading {
+     position: static;
+ }
+ body {
+     background-color: lightgray
+ }
+}
+
+@media screen (max-width:768px) {
+ .heading {
+    position: static;
+ }
+ body {
+     background-color: lightpink;
+ }
+}
+
+@media screen (max-width:640px) {
+ .heading {
+    position: static;
+ }
+ body {
+     background-color: lightseagreen;
+ }
+}
