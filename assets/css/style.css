@@ -3,6 +3,54 @@
     font-family: 'B612', sans-serif;
 }
 
+body {
+    overflow-y: scroll;
+    box-sizing: border-box;
+    display: block;
+    justify-content: space-between;
+    padding: 12px;
+    background: rgb(194, 226, 225);
+    width: 960px;
+    margin: 0 auto;
+    background-image: url("https://www.keendevelopers.com/wp-content/uploads/2019/04/website-design-background.png");
+    /* ~incase i want to add gradient on the background linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), add to backgorund image before url~ */
+    background-position: inherit;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 100%;
+}
+
+nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* CSS for Home/Intro Page */
+
+.intro {
+    margin: 12px;
+    padding: 12px;
+    display: block;
+    background: white;
+    opacity: 0.6;
+    font-size: 13.5px;
+    float: inherit;
+    margin-top: 130px;
+}
+
+.jumbotron {
+    margin: 12px;
+    padding: 12px;
+    display: block;
+    background: white;
+    opacity: 0.6;
+    font-size: 13.5px;
+    float: inherit;
+    margin-top: 130px;
+}
+
+
 /* CSS for About Me Page */
 
 #passport-photo {
@@ -20,28 +68,11 @@
     display: block;
     background: white;
     opacity: 0.6;
-    border-style: groove;
-    border-color: black;
     font-size: 13.5px;
     float: inherit;
     margin-top: 130px;
 }
 
-body {
-    overflow-y: scroll;
-    box-sizing: border-box;
-    display: block;
-    justify-content: space-between;
-    padding: 12px;
-    background: rgb(194, 226, 225);
-    width: 960px;
-    margin: 0 auto;
-    background-image: url("https://img.freepik.com/free-photo/grunge-background-wallpaper-texture-concrete-concept_53876-16290.jpg?size=626&ext=jpg");
-    background-position: inherit;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
 
 .heading {
     height: 70px;
@@ -56,18 +87,10 @@ body {
     float: inherit;
 }
 
-nav {
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .container {
     width: 960px;
     margin: 0 auto;
-    border-style: groove;
-    border-color: black;
 }
 
 li {
@@ -93,8 +116,6 @@ h2 {
     display: block;
     background: white;
     opacity: 0.6;
-    border-style: groove;
-    border-color: black;
     font-size: 13.5px;
     float: inherit;
     margin-top: 130px;
@@ -115,9 +136,6 @@ h2 {
     width: 600px;
 }
 
-input.text {
-
-}
 
 /* CSS for Portfolio Page */
 
@@ -127,44 +145,31 @@ input.text {
     display: block;
     background: white;
     opacity: 0.6;
-    border-style: groove;
-    border-color: black;
     font-size: 13.5px;
     float: inherit;
     margin-top: 130px;
 }
 
-.card {
+.imgs {
     position: relative;
 }
 
-.cat {
-    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_64/f_auto,q_auto,w_1100/v1565279671/shape/mentalfloss/578211-gettyimages-542930526.jpg");
+#hangman {
     height: 200px;
     width: 250px;
   }
 
-.business {
-    background-image: url("https://cdn.pixabay.com/photo/2018/02/14/10/28/business-3152586__340.jpg");
+#game-of-thrones {
     height: 200px;
     width: 250px;
   }
 
-.game {
-    background-image: url("https://www.pymnts.com/wp-content/uploads/2018/04/video-game-streaming-subscription.jpg");
+#train-times {
     height: 200px;
     width: 250px;
   }
   
-.card-text {
-    background-color: gray;
-    color: black; 
-    display: inline-block;
-    padding: 0.5rem;
-    position: absolute;
-    left: 0;
-    top: 70%;
-}
+
 
 @media screen (max-width:980px) {
  .heading {
@@ -192,3 +197,4 @@ input.text {
      background-color: lightseagreen;
  }
 }
+
