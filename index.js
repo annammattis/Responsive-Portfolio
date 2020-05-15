@@ -20,7 +20,8 @@ app.set("view engine", "pug");
  * Routes Definitions
  */
 app.get("/", (req, res) => {
-    res.status(200).send('index.html');
+    // res.status(200).send('index.html');
+    res.sendFile(path.join(__dirname + '/index.html'));
 })
 app.get("/", (req, res) => {
     res.render("index", { title: "Home" });
